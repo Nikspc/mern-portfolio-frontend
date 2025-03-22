@@ -1,0 +1,103 @@
+.home-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #1e1e2e, #3a3a55);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-section .role {
+    font-size: 1.8rem;
+    color: #00c6ff;
+    margin-bottom: 15px;
+}
+
+.hero-section .description {
+    font-size: 1.2rem;
+    max-width: 600px;
+}
+
+.skills-section {
+    margin-top: 30px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill-badge {
+    background: #282c34;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.skill-badge:hover {
+    background: #00c6ff;
+    transform: scale(1.1);
+}
+
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 180px;
+    text-align: center;
+    border: 2px solid white; /* White border for visibility */
+}
+
+.github {
+    background: #333;  /* Dark Gray for better contrast */
+    color: white;
+    border: 2px solid #ffffff;
+}
+
+.linkedin {
+    background: #005FFF; /* Brighter Blue for visibility */
+    color: white;
+    border: 2px solid #ffffff;
+}
+
+/* Hover Effects */
+.github:hover {
+    background: #444;
+    border-color: #aaaaaa;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.linkedin:hover {
+    background: #007FFF;
+    border-color: #cce6ff;
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+}
+
